@@ -1,0 +1,12 @@
+Vector databases are specialized databases designed to store and query high-dimensional vector embeddings. They enable efficient similarity search, which is crucial for RAG systems.
+
+Popular vector databases include:
+- Pinecone: Managed vector database service
+- Weaviate: Open-source vector search engine
+- Chroma: Lightweight embedding database
+- FAISS: Facebook AI Similarity Search (library by Meta)
+- Qdrant: Vector similarity search engine
+
+Vector databases use techniques like approximate nearest neighbor (ANN) search to quickly find similar vectors. This is much faster than comparing vectors one by one, especially with millions of documents.
+
+In LangChain, you can use HNSWLib as an in-memory vector store, which is great for prototyping and small-scale applications.

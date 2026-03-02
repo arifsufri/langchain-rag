@@ -1,0 +1,48 @@
+{
+  "name": "langchain-rag-ts",
+  "version": "1.0.0",
+  "description": "A comprehensive learning project for building RAG (Retrieval-Augmented Generation) systems with LangChain in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "ollama": "ts-node src/index-ollama.ts",
+    "ollama:interactive": "ts-node src/interactive-ollama.ts",
+    "ollama:advanced": "ts-node src/advanced-ollama.ts",
+    "ollama:streaming": "ts-node src/streaming-ollama.ts",
+    "interactive": "ts-node src/interactive.ts",
+    "advanced": "ts-node src/advanced-retrieval.ts",
+    "custom": "ts-node src/custom-retrieval.ts",
+    "streaming": "ts-node src/streaming.ts"
+  },
+  "keywords": [
+    "langchain",
+    "rag",
+    "retrieval-augmented-generation",
+    "typescript",
+    "openai",
+    "vector-database",
+    "embeddings",
+    "nlp",
+    "llm",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@langchain/community": "^1.1.20",
+    "@langchain/core": "^1.1.29",
+    "@langchain/ollama": "^1.2.5",
+    "@langchain/openai": "^1.2.11",
+    "dotenv": "^17.3.1",
+    "hnswlib-node": "^3.0.0",
+    "langchain": "^1.2.28"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

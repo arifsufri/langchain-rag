@@ -1,0 +1,11 @@
+LangChain is a framework for developing applications powered by language models. It enables applications that are context-aware and can reason about data. LangChain provides tools and abstractions to work with language models, including chains, agents, and memory systems.
+
+The framework is built around the concept of composability. You can combine different components to create complex applications. LangChain supports various LLM providers including OpenAI, Anthropic, and open-source models.
+
+Key features include:
+- Document loaders for various file formats
+- Text splitters for chunking documents
+- Vector stores for similarity search
+- Embeddings for semantic understanding
+- Chains for combining multiple operations
+- Agents for autonomous decision-making
