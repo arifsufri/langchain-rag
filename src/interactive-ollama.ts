@@ -116,7 +116,7 @@ async function main() {
       }
 
       if (question.toLowerCase() === 'exit' || question.toLowerCase() === 'quit') {
-        console.log('\n👋 Goodbye!');
+        console.log('\nGoodbye!');
         rl.close();
         return;
       }
